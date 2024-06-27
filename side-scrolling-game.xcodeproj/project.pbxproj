@@ -18,6 +18,7 @@
 		B08145912C2AE09D00B94032 /* side_scrolling_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08145902C2AE09D00B94032 /* side_scrolling_gameTests.swift */; };
 		B081459B2C2AE09D00B94032 /* side_scrolling_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081459A2C2AE09D00B94032 /* side_scrolling_gameUITests.swift */; };
 		B081459D2C2AE09D00B94032 /* side_scrolling_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081459C2C2AE09D00B94032 /* side_scrolling_gameUITestsLaunchTests.swift */; };
+		B0A2F5762C2DB86F00F7774B /* bgm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0A2F5752C2DB72900F7774B /* bgm1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B08145962C2AE09D00B94032 /* side-scrolling-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "side-scrolling-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B081459A2C2AE09D00B94032 /* side_scrolling_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = side_scrolling_gameUITests.swift; sourceTree = "<group>"; };
 		B081459C2C2AE09D00B94032 /* side_scrolling_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = side_scrolling_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0A2F5752C2DB72900F7774B /* bgm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		B08145752C2AE09C00B94032 /* side-scrolling-game */ = {
 			isa = PBXGroup;
 			children = (
+				B0A2F5742C2DB72200F7774B /* Sounds */,
 				B08145762C2AE09C00B94032 /* AppDelegate.swift */,
 				B08145782C2AE09C00B94032 /* GameScene.sks */,
 				B081457A2C2AE09C00B94032 /* Actions.sks */,
@@ -129,6 +132,14 @@
 				B081459C2C2AE09D00B94032 /* side_scrolling_gameUITestsLaunchTests.swift */,
 			);
 			path = "side-scrolling-gameUITests";
+			sourceTree = "<group>";
+		};
+		B0A2F5742C2DB72200F7774B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B0A2F5752C2DB72900F7774B /* bgm1.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A2F5762C2DB86F00F7774B /* bgm1.mp3 in Resources */,
 				B08145792C2AE09C00B94032 /* GameScene.sks in Resources */,
 				B08145822C2AE09C00B94032 /* Base in Resources */,
 				B08145842C2AE09D00B94032 /* Assets.xcassets in Resources */,
